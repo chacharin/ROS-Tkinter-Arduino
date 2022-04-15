@@ -5,5 +5,5 @@ VDO-Show case
 Button-Publisher ==> https://youtu.be/OZNDReMTi5E
 
 VDO-Show case
-Button-Publisher ==> https://youtu.be/hUTWt4uarkE
+Scale-Publisher ==> https://youtu.be/hUTWt4uarkE
 
