@@ -1,3 +1,6 @@
+ชัชรินทร์  เลิศยศบดินทร์
+Chacharin Lertyosbordin
+chaightlert@gmail.com
 # ROS-Tkinter-Arduino
 Try to create software GUI with Tkinter and also connect with Arduino
 
