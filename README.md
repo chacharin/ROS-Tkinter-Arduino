@@ -1,3 +1,35 @@
+
+ขั้นตอนการติดตั้ง Arduino IDE บน Ubuntu
+  $sudo apt-get update
+  $ sudo apt-get upgrade
+  $ mkdir arduino
+  $ cd arduino/
+  $ wget https://downloads.arduino.cc/arduino-1.8.15-linux64.tar.xz
+  $ tar -xvf ./arduino-1.8.15-linux64.tar.xz
+  $ cd arduino-1.8.15/
+  $ sudo ./install.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ชัชรินทร์  เลิศยศบดินทร์
 Chacharin Lertyosbordin
 chaightlert@gmail.com
