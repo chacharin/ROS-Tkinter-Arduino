@@ -1,5 +1,5 @@
 
-ขั้นตอนการติดตั้ง Arduino IDE บน Ubuntu
+1. ขั้นตอนการติดตั้ง Arduino IDE บน Ubuntu
   $sudo apt-get update
   $ sudo apt-get upgrade
   $ mkdir arduino
@@ -9,7 +9,7 @@
   $ cd arduino-1.8.15/
   $ sudo ./install.sh
 
-ขั้นตอนการติดตั้ง CH340 บน Ubuntu
+2. ขั้นตอนการติดตั้ง CH340 บน Ubuntu
   $ mkdir CH340_Source
   $ cd CH340_Source
   $ git clone https://github.com/juliagoda/CH341SER.git
@@ -21,6 +21,14 @@
   $ lsmod | grep ch34 (แสดงไดร์ฟเวอร์ที่ถูกติดตั้งใหม่แล้ว)
   $ dmesg (ทดสอบการ detect ด้วยการ  ถอดสาย และ เสียสาย )
   
+3. ขั้นตอนการติดตั้ง ROS Library ใน Arduno IDE
+  3.1 เปิด Arduino IDE
+  3.2 เข้าแถบ Sketch >>> Include Library >>> Manage Libraries >>> ค้นหาคำว่า rosserial >>> กด Install
+  
+5. บรรจุโค้ด Subscriber ลงใน Arduino
+6. สร้างไฟล์ Publisher ใน Pyhton 
+7. 
+
 
 
 
