@@ -9,7 +9,18 @@
   $ cd arduino-1.8.15/
   $ sudo ./install.sh
 
-
+ขั้นตอนการติดตั้ง CH340 บน Ubuntu
+  $ mkdir CH340_Source
+  $ cd CH340_Source
+  $ git clone https://github.com/juliagoda/CH341SER.git
+  $ cd CH341SER
+  $ make clean
+  $ make
+  $ sudo make load
+  $ sudo rmmod ch341 (เพื่อขจัดไดร์ฟเวอร์เก่า อาจเกิด Error หากไม่พบไดร์ฟเวอร์เก่า)
+  $ lsmod | grep ch34 (แสดงไดร์ฟเวอร์ที่ถูกติดตั้งใหม่แล้ว)
+  $ dmesg (ทดสอบการ detect ด้วยการ  ถอดสาย และ เสียสาย )
+  
 
 
 
