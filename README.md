@@ -23,31 +23,12 @@
   
 3. ขั้นตอนการติดตั้ง ROS Library ใน Arduno IDE
   3.1 เปิด Arduino IDE
-  3.2 เข้าแถบ Sketch >>> Include Library >>> Manage Libraries >>> ค้นหาคำว่า rosserial >>> กด Install
+  3.2 เข้าแถบ Sketch >>> Include Library >>> Manage Libraries 
+  3.3 ค้นหาคำว่า rosserial >>> เลือก version 0.7.9 >>> กด Install
   
-5. บรรจุโค้ด Subscriber ลงใน Arduino
-6. สร้างไฟล์ Publisher ใน Pyhton 
-7. 
+5. เขียนโค้ด Servo_Subscriber ผ่าน Arduino IDE แล้ว Burn Code
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+6. สร้างไฟล์ GUI_Publisher ใน VS Code แล้วสั่งรันด้วย rosrun my_project  GUI_Publisher.py
 
 ชัชรินทร์  เลิศยศบดินทร์
 Chacharin Lertyosbordin
