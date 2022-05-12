@@ -1,35 +1,3 @@
-
-1. ขั้นตอนการติดตั้ง Arduino IDE บน Ubuntu
-  $sudo apt-get update
-  $ sudo apt-get upgrade
-  $ mkdir arduino
-  $ cd arduino/
-  $ wget https://downloads.arduino.cc/arduino-1.8.15-linux64.tar.xz
-  $ tar -xvf ./arduino-1.8.15-linux64.tar.xz
-  $ cd arduino-1.8.15/
-  $ sudo ./install.sh
-
-2. ขั้นตอนการติดตั้ง CH340 บน Ubuntu
-  $ mkdir CH340_Source
-  $ cd CH340_Source
-  $ git clone https://github.com/juliagoda/CH341SER.git
-  $ cd CH341SER
-  $ make clean
-  $ make
-  $ sudo make load
-  $ sudo rmmod ch341 (เพื่อขจัดไดร์ฟเวอร์เก่า อาจเกิด Error หากไม่พบไดร์ฟเวอร์เก่า)
-  $ lsmod | grep ch34 (แสดงไดร์ฟเวอร์ที่ถูกติดตั้งใหม่แล้ว)
-  $ dmesg (ทดสอบการ detect ด้วยการ  ถอดสาย และ เสียสาย )
-  
-3. ขั้นตอนการติดตั้ง ROS Library ใน Arduno IDE
-  3.1 เปิด Arduino IDE
-  3.2 เข้าแถบ Sketch >>> Include Library >>> Manage Libraries 
-  3.3 ค้นหาคำว่า rosserial >>> เลือก version 0.7.9 >>> กด Install
-  
-5. เขียนโค้ด Servo_Subscriber ผ่าน Arduino IDE แล้ว Burn Code
-
-6. สร้างไฟล์ GUI_Publisher ใน VS Code แล้วสั่งรันด้วย rosrun my_project  GUI_Publisher.py
-
 ชัชรินทร์  เลิศยศบดินทร์
 Chacharin Lertyosbordin
 chaightlert@gmail.com
